@@ -54,6 +54,9 @@ $(document).ready(function(){
 			}, 1000);
 		};
 		if ( page == 1 ) {
+			if ($(window).width() < 640 ) {
+				$('.count').css('opacity','1');
+			}
 			$('.last').css('opacity','1').removeClass('cursor_ori');
 		};
 		if ( page == 8 ) {
@@ -98,6 +101,9 @@ $(document).ready(function(){
 			}, 1000);
 		};
 		if ( page == 0 ) {
+			if ($(window).width() < 640 ) {
+				$('.count').css('opacity','0');
+			}
 			$('.last').css('opacity','0').addClass('cursor_ori');
 		};
 		if ( page == 7 ) {
