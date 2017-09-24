@@ -124,14 +124,14 @@
 	.count {
 		opacity: 0;
 		z-index: 2;
-		top: 50%;
+		top: 35%;
 		left: auto;
-		right: 80%;
-		font-size: 18pt;
+		right: 75%;
+		font-size: 14pt;
 		letter-spacing: 5px;
 	}
 	.count span {
-		font-size: 44pt;
+		font-size: 36pt;
 	}
 	.next, .last {
 		z-index: 2;
@@ -255,7 +255,7 @@
 		bottom: 15%;
 		left: 5%;
 		text-align: left;
-		font-size: 48pt;
+		font-size: 40pt;
 	}
 	.side_0 {
 		z-index: 1;
@@ -269,7 +269,7 @@
 		left: 10%;
 		position: fixed;
 		text-align: left;
-		font-size: 44pt;
+		font-size: 42pt;
 	}
 	.side p {
 		width: 70%;
