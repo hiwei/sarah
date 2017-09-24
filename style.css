@@ -237,6 +237,7 @@ notice {
 .next, .last {
 	z-index: 1;
 	position: absolute;
+	position: fixed;
 	bottom: 60px;
 	left: 47%;
 	transition: border 0.5s, opacity 0.5s;
