@@ -4,7 +4,7 @@ body {
 	margin: 0;
 	padding: 0;
 	overflow: hidden! important;
-	color: #000;
+	color: #233142;
 	width: 100%;
 	height: 100vh;
 	font-family: 'Playfair Display', serif;
@@ -33,8 +33,8 @@ notice {
 	height: 50px;
 	border-top: 0 solid transparent;
 	border-bottom: 0 solid transparent;
-	border-left: 15px solid #2CA4BF;
-	border-right: 15px solid #2CA4BF;
+	border-left: 15px solid #8AACFF;
+	border-right: 15px solid #8AACFF;
 	transition: border 0.5s;
 }
 .mute:hover {
@@ -52,7 +52,7 @@ notice {
 	height: 0;
 	border-top: 25px solid transparent;
 	border-bottom: 25px solid transparent;
-	border-left: 40px solid #2CA4BF;
+	border-left: 40px solid #8AACFF;
 	border-right: 0;
 	}
     33% {
@@ -60,24 +60,24 @@ notice {
 	height: 0;
 	border-top: 25px solid transparent;
 	border-bottom: 25px solid transparent;
-	border-left: 20px solid #2CA4BF;
-	border-right: 20px solid #2CA4BF;
+	border-left: 20px solid #8AACFF;
+	border-right: 20px solid #8AACFF;
 	}
     66% {
 	width: 0;
 	height: 50px;
 	border-top: 0 solid transparent;
 	border-bottom: 0 solid transparent;
-	border-left: 20px solid #2CA4BF;
-	border-right: 20px solid #2CA4BF;
+	border-left: 20px solid #8AACFF;
+	border-right: 20px solid #8AACFF;
 	}
 	100% {
 	width: 10px;
 	height: 50px;
 	border-top: 0 solid transparent;
 	border-bottom: 0 solid transparent;
-	border-left: 15px solid #2CA4BF;
-	border-right: 15px solid #2CA4BF;
+	border-left: 15px solid #8AACFF;
+	border-right: 15px solid #8AACFF;
 	}
 }
 .pause {
@@ -89,31 +89,31 @@ notice {
 	height: 50px;
 	border-top: 0 solid transparent;
 	border-bottom: 0 solid transparent;
-	border-left: 15px solid #2CA4BF;
-	border-right: 15px solid #2CA4BF;
+	border-left: 15px solid #8AACFF;
+	border-right: 15px solid #8AACFF;
 	}
     33% {
  	width: 0;
 	height: 50px;
 	border-top: 0 solid transparent;
 	border-bottom: 0 solid transparent;
-	border-left: 20px solid #2CA4BF;
-	border-right: 20px solid #2CA4BF;
+	border-left: 20px solid #8AACFF;
+	border-right: 20px solid #8AACFF;
 	}
     66% {
  	width: 0;
 	height: 0;
 	border-top: 25px solid transparent;
 	border-bottom: 25px solid transparent;
-	border-left: 20px solid #2CA4BF;
-	border-right: 20px solid #2CA4BF;
+	border-left: 20px solid #8AACFF;
+	border-right: 20px solid #8AACFF;
 	}
 	100% {
 	width: 0;
 	height: 0;
 	border-top: 25px solid transparent;
 	border-bottom: 25px solid transparent;
-	border-left: 40px solid #2CA4BF;
+	border-left: 40px solid #8AACFF;
 	border-right: 0;
 	}
 }
@@ -124,9 +124,7 @@ notice {
 	height: 100%;
 	left: 0;
 	top: 0;
-	background: #A6E4E7;
-	background: -webkit-linear-gradient(#E2EFF1, #A6E4E7);
-	background: linear-gradient(#E2EFF1, #A6E4E7);
+	background: #EFF6FF;
 }
 .count {
 	position: absolute;
@@ -134,7 +132,7 @@ notice {
 	right: 10%;
 	top: 10%;
 	line-height: 100%;
-	color: #044343;
+	color: #233142;
 	transition: opacity 0.5s;
 }
 .count span {
@@ -178,7 +176,7 @@ notice {
 	font-family: 'Fira Sans';
 	width: 90%;
 	margin-top: 10%;
-	color: #044343;
+	color: #233142;
 	font-weight: 400;
 	float: right;
 	column-count: 2;
@@ -244,7 +242,7 @@ notice {
 }
 .next {
 	border-bottom: 0;
-	border-top: 25px solid #2CA4BF;
+	border-top: 25px solid #8AACFF;
 	border-left: 12px solid transparent;
 	border-right: 12px solid transparent;
 }
@@ -252,15 +250,15 @@ notice {
 	opacity: 0;
 	bottom: 120px;
 	border-top: 0;
-	border-bottom: 25px solid #2CA4BF;
+	border-bottom: 25px solid #8AACFF;
 	border-left: 12px solid transparent;
 	border-right: 12px solid transparent;
 }
 .next:hover {
-	border-top: 25px solid #1A8B9D;
+	border-top: 25px solid #626FE6;
 }
 .last:hover {
-	border-bottom: 25px solid #1A8B9D;
+	border-bottom: 25px solid #626FE6;
 }
 .next:hover, .last:hover {
 	cursor: pointer;
