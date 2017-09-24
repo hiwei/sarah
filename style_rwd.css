@@ -122,11 +122,11 @@
 }
 @media screen and (min-width: 0px) and (max-width: 640px) {
 	.count {
+		opacity: 0;
 		z-index: 2;
-		top: auto;
-		bottom: 40%;
+		top: 50%;
 		left: auto;
-		right: 40%;
+		right: 80%;
 		font-size: 18pt;
 		letter-spacing: 5px;
 	}
@@ -135,7 +135,7 @@
 	}
 	.next, .last {
 		z-index: 2;
-		bottom: 40%;
+		bottom: 3%;
 		left: auto;
 		right: 10%;
 	}
@@ -163,44 +163,124 @@
 	}
 	.mute {
 		z-index: 9;
-		left: auto;
-		right: 5%;
-		top: 40%;
+		margin: auto;
+		left: 0;
+		right: 0;
+		top: auto;
+		bottom: 3%;
+		width: 8px;
+		height: 30px;
+		border-top: 0 solid transparent;
+		border-bottom: 0 solid transparent;
+		border-left: 8px solid #2CA4BF;
+		border-right: 8px solid #2CA4BF;
+	}
+	@keyframes play {
+		0% {
+		width: 0;
+		height: 0;
+		border-top: 15px solid transparent;
+		border-bottom: 15px solid transparent;
+		border-left: 24px solid #2CA4BF;
+		border-right: 0;
+		}
+		33% {
+		width: 0;
+		height: 0;
+		border-top: 15px solid transparent;
+		border-bottom: 15px solid transparent;
+		border-left: 12px solid #2CA4BF;
+		border-right: 12px solid #2CA4BF;
+		}
+		66% {
+		width: 0;
+		height: 30px;
+		border-top: 0 solid transparent;
+		border-bottom: 0 solid transparent;
+		border-left: 12px solid #2CA4BF;
+		border-right: 12px solid #2CA4BF;
+		}
+		100% {
+		width: 8px;
+		height: 30px;
+		border-top: 0 solid transparent;
+		border-bottom: 0 solid transparent;
+		border-left: 8px solid #2CA4BF;
+		border-right: 8px solid #2CA4BF;
+		}
+	}
+	@keyframes pause {
+		0% {
+		width: 8px;
+		height: 30px;
+		border-top: 0 solid transparent;
+		border-bottom: 0 solid transparent;
+		border-left: 8px solid #2CA4BF;
+		border-right: 8px solid #2CA4BF;
+		}
+		33% {
+		width: 0;
+		height: 30px;
+		border-top: 0 solid transparent;
+		border-bottom: 0 solid transparent;
+		border-left: 12px solid #2CA4BF;
+		border-right: 12px solid #2CA4BF;
+		}
+		66% {
+		width: 0;
+		height: 0;
+		border-top: 15px solid transparent;
+		border-bottom: 15px solid transparent;
+		border-left: 12px solid #2CA4BF;
+		border-right: 12px solid #2CA4BF;
+		}
+		100% {
+		width: 0;
+		height: 0;
+		border-top: 15px solid transparent;
+		border-bottom: 15px solid transparent;
+		border-left: 24px solid #2CA4BF;
+		border-right: 0;
+		}
 	}
 	.year {
 		font-size: 150pt;
 	}
 	.side {
 		z-index: 2;
-		width: 100%;
+		width: 40%;
 		margin: 0;
 		height: auto;
 		top: auto;
-		bottom: 30%;
-		left: 0;
-		text-align: center;
-		font-size: 36pt;
+		bottom: 15%;
+		left: 5%;
+		text-align: left;
+		font-size: 48pt;
 	}
 	.side_0 {
 		z-index: 1;
 		opacity: 1;
 		margin: 0;
-		width: 80%;
+		width: 100%;
 		height: auto;
 		position: absolute;
 		top: auto;
-		bottom: 5%;
+		bottom: 15%;
 		left: 10%;
 		position: fixed;
 		text-align: left;
-		font-size: 40pt;
+		font-size: 44pt;
 	}
 	.side p {
-		width: 85%;
-		column-gap: 10px;
+		width: 70%;
+		left: auto;
+		right: 5%;
+		bottom: 10%;
+		column-count: 1;
 		font-size: 10pt;
 	}
 	.side_0 p {
+		left: 0%;
 		width: 80%;
 	}
 	.image {
