@@ -1,13 +1,13 @@
 @media screen and (min-width: 0px) and (max-width: 1024px) {
 	body {
-		background: #E2EFF1;
+		background: #EFF6FF;
 	}
 	.index {
 		width: 100%;
 		height: 70%;
 		left: 0;
 		top: 30%;
-		background: #E2EFF1;
+		background: #EFF6FF;
 	}
 	.year {
 		z-index: 1;
@@ -315,5 +315,4 @@
 		width: 100%;
 		opacity: 1;
 	}
-	
 }
