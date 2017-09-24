@@ -1,6 +1,10 @@
 $(document).ready(function(){
 
 	$('.last').addClass('cursor_ori');
+	if ($(window).width() < 640 ) {
+		$('.image_0').html('<img src="img/home_500.jpg"/>');
+	}
+
 	/* ALBUM IMG */
 	for (var i=1; i<9; i++){
 		$('.image_'+ i).html('<img src="img/'+ i +'.jpg"/>');
